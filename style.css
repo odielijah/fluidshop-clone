@@ -1,0 +1,218 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Clash Display;
+    src: url(./fonts/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Medium.otf);
+}
+
+@font-face {
+    font-family: Creato Display;
+    src: url(./fonts/creato-display.bold.otf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.nav-container {
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+    line-height: 1;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border {
+    display: flex;
+    border: 1px solid rgba(23,23,23);
+    border-radius: 9999px;
+    background-color: rgba(23,23,23);
+    align-items: center;
+    padding: 1.25rem;
+}
+
+.fcslink {
+    padding: 27px;
+    border: 1px solid #fff;
+    border-radius: 9999px;
+    margin-right: 4rem;
+    background-color: #fff;
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: rgb(25, 189, 66);
+}
+
+.logo {
+    margin-right: 1rem;
+    width: 1.5rem;
+}
+
+.fcs {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Clash Display', sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: .85;
+    letter-spacing: .15em;
+    font-size: clamp(1.75rem,6.94vw,100px);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 2.2rem;
+}
+
+.btn {
+    padding-right: 24px;
+}
+
+.login {
+    display: block;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    border: 2px solid #fff;
+    padding-top: 1.2rem;
+    padding-bottom: 1.25rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    text-transform: uppercase;
+    border-radius: 9999px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    line-height: 1;
+}
+
+.sling {
+    display: block;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    border: 2px solid #fff;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1.3rem;
+    text-transform: uppercase;
+    border-radius: 9999px;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 0.9;
+}
+
+.hero-background {
+    margin-left: 11px;
+    margin-right: 11px;
+    width: 1344px;
+}
+.hero-title {
+    margin-left: 7.8%;
+    margin-top: -57.5%;
+}
+h1 {
+    position: absolute;
+    color: #fff;
+    font-family: 'Creato Display',sans-serif;
+    line-height: 1;
+    width: 510px;
+    height: 246px;
+    letter-spacing: .05em;
+    font-size: 5.125rem;
+}
+
+.open-shop {
+    margin-top: 3.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    position: relative;
+    margin-top: -38%;
+    margin-left: 6.5rem;
+}
+.hero-right {
+    margin-top: 6%;
+    margin-left: -55%;
+}
+.shuffle {
+    width: 714px;
+    height: 984.94px;
+}
+.container-2 {
+    display: flex;
+    overflow: hidden;
+}
+.sell-anything {
+    position: relative;
+    width: 1366px;
+    height: 172.11px;
+    background: -webkit-linear-gradient(305.17deg,#a8ff78 15.89%,#1fffbb 237.61%);
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-family: 'Clash Display',sans-serif;
+    font-weight: 600;
+    width: 106vw;
+    left: 50%;
+    transform: translateX(-49.5%);
+    font-size: clamp(64px,12.6vw,182px);
+    -webkit-text-stroke: 5px transparent;
+    overflow-x: visible;
+    margin-bottom: -4rem;
+    margin-top: 4.5%;
+    text-align: center;
+    line-height: 1;
+}
+
+.ipadimg {
+    width: 1260px;
+}
+.ipad {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.who {
+    display: flex;
+    justify-content: center;
+    margin-left: 207px;
+    margin-right: 207px;
+    padding-top:160px;
+    padding-right: 24px;
+    padding-bottom: 288px;
+    padding-left: 24px;
+
+}
+.who-title {
+    color: #fff;
+    font-family: 'Creato Display',sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 96px;
+    width: 904px;
+    height: 120px;
+}
